@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shaheryar - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#Name">Home</a></li>
+          <li><a href="#Bio">About</a></li>
+          <li><a href="#Link">Link</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Project">Projects</a></li>
+          <li><a href="#Form">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="section" id="Name">
+      <h1>Shaheryar Amir</h1>
+    </div>
+
+    <div class="section" id="Bio">
+      <p>
+        I'm currently pursuing a Computer Science degree at FAST University,
+        Lahore. Passionate about building intelligent and interactive digital
+        experiences, I’m exploring the intersection of web development, machine
+        learning, and artificial intelligence. As a curious tech learner, I
+        enjoy staying up-to-date with the latest innovations and constantly
+        pushing my boundaries.
+      </p>
+    </div>
+
+    <div class="section" id="Image">
+      <img
+        src="IMG-20211212-WA0056-removebg-preview.png"
+        alt="ProfilePicture"
+        width="250"
+      />
+    </div>
+    <div class="section" id="Download">
+      <a href="CV.png" download class="download-btn">Download CV</a>
+    </div>
+    
+    <div class="section" id="Link">
+      <a href="https://www.linkedin.com/in/shaheryar-amir-139a88315/"
+        >Linkedin</a
+      >
+    </div>
+    <div class="section" id="Skills">
+      <ul>
+        <li>HTML</li>
+        <li>Machine Learning</li>
+        <li>Artificial intelligence</li>
+        <li>C++</li>
+        <li>SQL</li>
+        <li>React</li>
+      </ul>
+    </div>
+
+
+    <div class="section" id="Project">
+      <table>
+        <tname><b>Prjects</b></tname>
+        <tr>
+          <th>Name</th>
+          <th>Semester</th>
+          <th>Tech</th>
+        </tr>
+        <tr>
+          <td>Space Shooter</td>
+          <td>1st Semester</td>
+          <td>C++ & SFML</td>
+        </tr>
+
+        <tr>
+          <td>Social Media App</td>
+          <td>2nd Semester</td>
+          <td>C++</td>
+        </tr>
+
+        <tr>
+          <td>Alpha Catcher</td>
+          <td>3rd Semester</td>
+          <td>Assembly Language</td>
+        </tr>
+
+        <tr>
+          <td>Notepad</td>
+          <td>3rd Semester</td>
+          <td>C++</td>
+        </tr>
+
+        <tr>
+          <td>Basic Task Management System</td>
+          <td>4th Semester</td>
+          <td>JavaScript,SQL,React</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section" id="Form">
+      <form action="/submit" method="post">
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" id="name" />
+
+        <label for="email">Enter Email</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="msg">Enter Any Message</label>
+        <textarea name="msg" id="msg" rows="4">Enter Message</textarea>
+
+        <label for="submit"></label>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
